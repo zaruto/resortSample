@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookingForm</title>
+
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+    <link rel="stylesheet" href="/bootstrap-iso.css">   
+<!-- Inline CSS based on choices in "Settings" tab -->
+    <link rel="stylesheet" href="styles.css">   
+ 
+<!--Font Awesome (added because you use icons in your prepend/append)-->
+<link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="room-holder">
+    <form method="post">
+
+            <div class="heading">  
+                    <h1>BOOK YOUR HOLIDAY</h1>
+                    <h2>Send booking request</h2>
+            </div>
+     <div id ="Checkin" class="form-group ">
+      <label class="control-label requiredField" for="date">
+       Checkin Date:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-calendar">
+        </i>
+       </div>
+       <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+      </div>
+     </div>
+     <div id ="Checkout" class="form-group ">
+      <label class="control-label requiredField" for="date1">
+       Checkout Date:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-calendar">
+        </i>
+       </div>
+       <input class="form-control" id="date1" name="date1" placeholder="MM/DD/YYYY" type="text"/>
+      </div>
+     </div>
+     <div id="adults" class="form-group ">
+      <label class="control-label requiredField" for="number">
+        Adults:
+       <span class="asteriskField">
+        *
+        </span>
+        </label>
+        <input class="form-control" id="number" name="number" type="text"/>
+        <label class="control-label " for="number1">
+        Kids:
+        </label>
+        <input class="form-control" id="number1" name="number1" type="text"/>
+     </div>
+     <div id = "roomcategory" class="form-group ">
+      <label class="control-label requiredField" for="select">
+       Room Category:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <select class="select form-control" id="select" name="select">
+       <option value="First Choice">
+        Haven Suite
+       </option>
+       <option value="Second Choice">
+        Haven Villa
+       </option>
+       <option value="Third Choice">
+        Ocean Suite
+       </option>
+       <option value="Forth Choice">
+        Super Deluxe Beach Villa
+       </option>
+       <option value="Fifth Choice">
+        Water Villa
+       </option>
+      </select>
+     </div>
+     <div id="name" class="form-group ">
+      <label class="control-label requiredField" for="name">
+       Name:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="name" name="name" type="text"/>
+     </div>
+     <div id ="Country" class="form-group ">
+      <label class="control-label " for="Country">
+       Country:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="Country" name="Country" type="text"/>
+     </div>
+     <div id = "email" class="form-group ">
+      <label class="control-label requiredField" for="email">
+       Email:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="email" name="email" type="text"/>
+     </div>
+     <div id = special class="form-group ">
+      <label class="control-label " for="message">
+       Special Requests:
+      </label>
+      <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-primary " name="submit" type="submit">
+        Submit
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+
+</body>
+</html>

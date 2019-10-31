@@ -1,0 +1,72 @@
+
+
+.asteriskField{color: red;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+.heading h1{
+    font-size: 20px;;
+
+  }
+
+label{
+
+    font-size: 12px;
+  }
+.heading h2{
+    font-size: 15px;;
+
+  }
+
+.room-holder{
+    margin: auto;
+    padding: 20px;
+    height: auto;
+    background-color: whitesmoke;
+    width: 500px;
+    border-radius: 10px;
+  }
+
+.input-group{
+    width: 200px;
+  }
+
+.form-group{
+
+    width: 300px;
+    flex-wrap: nowrap;
+
+  }
+
+#adults{
+    display: inline-flex;
+
+    width: 350px;
+  }
+
+.heading{
+
+    text-align: center;
+    margin: 0%;
+    padding: 0px;
+    text-transform: capitalize;
+  }
+
+#adults label{
+    font-size: 12px;
+    margin: 5px;
+
+  }
+
+.row{
+background-color: #303A46;
+
+}
+
+label{
+    margin: 0%;
+    align-items: baseline;
+    color: black;
+  }
